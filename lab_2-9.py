@@ -9,18 +9,11 @@ score = int(input("Enter the number of points scored by the team: "))
 
 if score >= 12 and score <= 15:
     medal = "Gold"
+elif score >= 9 and score <= 11:
+    medal = "Bronze"
+elif score >= 12 and score <= 14:
+    medal = "Silver"
 else:
-    if score >= 9 and score <= 11:
-        medal = "Silver"
-    else:
-        if score >= 6 and score <= 8:
-            medal = "Bronze"
-        else:
-            medal = "No Medal"
+    medal = "No Medal"
 
 print(f"The team earned a {medal} medal.")
-
-
-
-
-

@@ -8,19 +8,14 @@ Write a program using nested if else statements where a user can input the numbe
 score = int(input("Enter the number of points scored by the team: "))
 
 if score >= 12 and score <= 15:
-    medal = "Gold"
+    medal = "Gold Medal"
 else:
     if score >= 9 and score <= 11:
-        medal = "Silver"
+        medal = "Silver Medal"
     else:
         if score >= 6 and score <= 8:
-            medal = "Bronze"
+            medal = "Bronze Medal"
         else:
             medal = "No Medal"
 
-print(f"The team earned a {medal} medal.")
-
-
-
-
-
+print(f"The team earned a {medal}.")
